@@ -44,7 +44,7 @@ body {
 .root {
   position: relative;
   width: 100vw;
-  min-height: 150vh;
+  min-height: 2000px;
   // background-color: rgba($darkClr, 0.9);
   background-image: url("../img/code-1.jpg");
   background-size: cover;
@@ -295,7 +295,7 @@ header {
 #aboutMe {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: min(90%, 700px);
@@ -375,7 +375,7 @@ header {
 #skillSets {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: min(90%, 700px);
@@ -465,7 +465,7 @@ header {
 #contactMe {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   min-width: 500px;
@@ -560,7 +560,7 @@ header {
 #projects {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: min(90%, 1200px);

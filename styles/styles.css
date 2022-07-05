@@ -25,7 +25,7 @@ body {
 .root {
   position: relative;
   width: 100vw;
-  min-height: 150vh;
+  min-height: 2000px;
   background-image: url("../img/code-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #aboutMe {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: min(90%, 700px);
@@ -263,7 +263,7 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #skillSets {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: min(90%, 700px);
@@ -336,7 +336,7 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #contactMe {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   min-width: 500px;
@@ -413,7 +413,7 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #projects {
   z-index: 2;
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: min(90%, 1200px);
