@@ -193,7 +193,7 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #aboutMe {
   z-index: 2;
   position: absolute;
-  top: 120px;
+  top: 200px;
   left: 50%;
   transform: translateX(-50%);
   width: min(90%, 700px);
@@ -263,13 +263,13 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #skillSets {
   z-index: 2;
   position: absolute;
-  top: 33.33%;
+  top: 200px;
   left: 50%;
+  transform: translateX(-50%);
   width: min(90%, 700px);
   padding: 2em;
   color: var(--Clr-primary);
   border-radius: 5px;
-  transform: translate(-50%, -50%);
   box-shadow: 0 2px 5px var(--Clr-primary);
   line-height: 1.6;
   display: none;
@@ -336,11 +336,11 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #contactMe {
   z-index: 2;
   position: absolute;
-  top: 33.33%;
+  top: 200px;
   left: 50%;
+  transform: translateX(-50%);
   min-width: 500px;
   min-height: 500px;
-  transform: translate(-50%, -50%);
   color: var(--Clr-primary);
   background-color: #050801;
   border-radius: 5px;
@@ -413,13 +413,13 @@ header .menu-item:hover, header .menu-item:active, header .menu-item:focus {
 #projects {
   z-index: 2;
   position: absolute;
-  top: 33.33%;
+  top: 200px;
   left: 50%;
+  transform: translateX(-50%);
   width: min(90%, 1200px);
   padding: 2em;
   color: var(--Clr-primary);
   border-radius: 5px;
-  transform: translate(-50%, -50%);
   box-shadow: 0 2px 5px var(--Clr-primary);
   line-height: 1.6;
   display: none;
