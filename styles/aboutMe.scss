@@ -1,0 +1,106 @@
+//****** Variables and Mixin Declaration *******///
+
+:root {
+  --Clr-primary: #03e9f4;
+  --bg-dark: #18191f;
+  --Clr-link: #f5f0bb;
+}
+
+$darkClr: #18191f;
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial, san-serif;
+  background-color: var(--bg-dark);
+  width: 100%;
+  padding: 1% 7%;
+}
+
+header {
+  width: 100%;
+  padding: 1em;
+
+  h1 {
+    text-align:center;
+    color: var(--Clr-primary);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    font-size: clamp(2.5rem, 5vw + 1rem, 5rem);
+  }
+}
+
+//***** About Me Page *****//
+#aboutMe {
+    width: min(90%, 1180px);
+    padding: 2em;
+    margin: 100px auto;
+    line-height: 1.6;
+    color: var(--Clr-primary);
+    background-color: rgba(var(--bg-dark), 1);
+    box-shadow: 0 2px 5px var(--Clr-primary);
+    border-radius: 5px;
+    display: grid;
+  
+    .content-title {
+      text-align: center;
+      text-decoration: underline;
+    }
+  
+    h2,
+    h3,
+    p {
+      padding: 0.2em 0.5em;
+    }
+  
+    h2 {
+      font-family: Georgia, serif;
+      font-weight: 900;
+      letter-spacing: 1px;
+      word-spacing: 0.5em;
+      text-transform: capitalize;
+      font-size: 2rem;
+      font-size: clamp(1.75rem, 1rem + 5vw, 2.5rem);
+    }
+  
+    h3 {
+      font-family: Verdana, sans-serif;
+      font-weight: 700;
+      font-size: 1.35rem;
+      font-size: clamp(1.25rem, 1rem + 5vw, 1.5rem);
+      letter-spacing: 1px;
+  
+      &::before {
+        content: "\003e\003e"+ " ";
+      }
+    }
+  
+    p {
+      font-family: Verdana, sans-serif;
+      font-weight: 500;
+      font-size: 1.125rem;
+      font-size: clamp(1rem, 1rem + 5vw, 1.125rem);
+      text-indent: 3em;
+      color: var(--Clr-primary);
+      opacity: 0.5;
+    }
+  
+    //*** About Me Page Responsive ***//
+    @media screen and (min-width: 65rem) {
+      grid-template-columns: 1fr 1fr;
+      gap: 1em;
+
+  
+      .content-item {
+        min-height: 266px;
+      }
+    }
+  }
