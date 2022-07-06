@@ -40,8 +40,10 @@ menuItems.forEach((item) => {
     //change current menu name
     const name = e.target.innerHTML;
     menuBtn.innerHTML = `${name} <span></span><span></span><span></span><span></span>`;
+
   });
 });
+
 
 homeBtn.addEventListener("click", (e) => {
   pages.forEach((page) => {
